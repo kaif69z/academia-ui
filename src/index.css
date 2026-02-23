@@ -1,0 +1,293 @@
+
+
+/* Form validation, CSS start from here */
+
+
+.apply-card {
+  border-radius: 25px;
+  background: #ffffff;
+}
+
+.apply-title {
+  font-weight: 700;
+  color: #ce2f3f;
+}
+
+.form-control,
+.form-select {
+  border-radius: 12px;
+  padding: 10px;
+  transition: 0.3s ease;
+}
+
+.form-control:focus,
+.form-select:focus {
+  border-color: #ce2f3f;
+  box-shadow: 0 0 0 0.2rem rgba(206, 47, 63, 0.25);
+}
+
+.apply-btn {
+  background-color: #ce2f3f;
+  border: none;
+  border-radius: 50px;
+  padding: 10px 30px;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+.apply-btn:hover {
+  background-color: #b82635;
+  transform: translateY(-3px);
+}
+
+.secondary-btn {
+  background: transparent;
+  border: 2px solid #ce2f3f;
+  color: #ce2f3f;
+  border-radius: 50px;
+  padding: 8px 25px;
+  transition: 0.3s ease;
+}
+
+.secondary-btn:hover {
+  background: #ce2f3f;
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Foundation CSS start from here */
+
+
+
+.foundation-hero {
+  min-height: 95vh;
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.65),
+      rgba(0, 0, 0, 0.65)
+    ),
+    url("https://images.unsplash.com/photo-1523050854058-8df90110c9f1")
+      center/cover no-repeat;
+}
+
+.section-heading {
+  font-weight: 700;
+  color: #ce2f3f;
+}
+
+.primary-btn {
+  background-color: #ce2f3f;
+  border: none;
+  border-radius: 50px;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+.primary-btn:hover {
+  background-color: #b82635;
+  transform: translateY(-3px);
+}
+
+.module-card {
+  border-radius: 20px;
+  transition: 0.3s ease;
+}
+
+.module-card:hover {
+  transform: translateY(-8px);
+}
+
+.stats-section {
+  background-color: #ce2f3f;
+}
+
+.custom-list li {
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* univesiti overview start here */
+
+
+
+
+
+#university-overview-page {
+  background-color: #ffffff;
+}
+
+
+#university-overview-page .carousel-inner img {
+  border-radius: 20px;
+  transition: transform 0.4s ease;
+}
+
+#university-overview-page .carousel-inner img:hover {
+  transform: scale(1.02);
+}
+
+
+#university-overview-page .carousel-indicators button {
+  padding: 0;
+  border: none;
+  background: transparent;
+}
+
+#university-overview-page .carousel-indicators img {
+  opacity: 0.7;
+  border-radius: 12px;
+  border: 3px solid transparent;
+  transition: all 0.3s ease;
+}
+
+#university-overview-page .carousel-indicators img:hover {
+  opacity: 1;
+  transform: scale(1.08);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+#university-overview-page .carousel-indicators .active img {
+  opacity: 1;
+  border: 3px solid #ce2f3f;
+  box-shadow: 0 0 20px rgba(206, 47, 63, 0.6);
+}
+
+
+
+#university-overview-page h1 {
+  letter-spacing: -1px;
+}
+
+#university-overview-page ul li {
+  margin-bottom: 8px;
+}
+
+#university-overview-page ul li::marker {
+  color: #ce2f3f;
+}
+
+
+#university-overview-page .btn-danger {
+  background: linear-gradient(135deg, #ce2f3f, #a51f2d);
+  border: none;
+  transition: all 0.3s ease;
+}
+
+#university-overview-page .btn-danger:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 25px rgba(206, 47, 63, 0.4);
+}
+
+
+
+#university-overview-page .card {
+  border-radius: 20px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+#university-overview-page .card img {
+  transition: transform 0.4s ease;
+}
+
+#university-overview-page .card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
+
+#university-overview-page .card:hover img {
+  transform: scale(1.08);
+}
+
+
+
+
+/* error page start */
+
+
+#serviceUnavailablePage {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #f5f7ff, #e9ecff);
+  text-align: center;
+  padding: 20px;
+}
+
+#errorContainer {
+  max-width: 600px;
+  padding: 50px 40px;
+  background: #ffffff;
+  border-radius: 25px;
+  transition: 0.4s ease;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.08);
+}
+
+#errorContainer:hover {
+  transform: translateY(-12px);
+  box-shadow: 0 40px 90px rgba(0, 0, 0, 0.18);
+}
+
+#errorCode {
+  font-size: 90px;
+  font-weight: 800;
+  color: #222;
+  margin-bottom: 10px;
+}
+
+#errorTitle {
+  font-size: 28px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+#errorMessage {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 35px;
+}
+
+#errorButtonGroup {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+#goBackBtn,
+#homeBtn {
+  padding: 10px 30px;
+  border-radius: 30px;
+  transition: 0.3s ease;
+}
+
+#goBackBtn:hover,
+#homeBtn:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+}
