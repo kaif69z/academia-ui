@@ -5,7 +5,7 @@ import Navbar from "react-bootstrap/Navbar";
 
 export default function Header() {
   return (
-    <Navbar expand="lg"  id="NavBar">
+    <Navbar expand="lg" id="NavBar">
       <Container>
 
         {/* LEFT */}
@@ -13,12 +13,11 @@ export default function Header() {
           XYZ University
         </Navbar.Brand>
 
-     <Navbar.Toggle>
-  <span class="material-symbols-outlined" id="Toggle-ThreeDot">
-density_medium
-</span>
-</Navbar.Toggle>
-
+        <Navbar.Toggle>
+          <span class="material-symbols-outlined" id="Toggle-ThreeDot">
+            density_medium
+          </span>
+        </Navbar.Toggle>
 
         <Navbar.Collapse>
 
@@ -36,20 +35,16 @@ density_medium
 
           {/* RIGHT */}
           <Nav className="ms-auto" id="RightHDR-Styling">
+            <select id="Language">
+              <option>English</option> <option>Hindi</option>{" "}
+            </select>
 
-
-
-        <select  id="Language"><option>English</option></select>
-
-
-            <Nav.Link className="px-3"as={Link} to={"/unavailable"}  >Help Desk <span class="material-symbols-outlined">
-call
-</span> </Nav.Link>
-
+            <Nav.Link className="px-3" as={Link} to={"/unavailable"}>
+              Help Desk <span class="material-symbols-outlined">call</span>{" "}
+            </Nav.Link>
           </Nav>
 
         </Navbar.Collapse>
-
       </Container>
     </Navbar>
   );
