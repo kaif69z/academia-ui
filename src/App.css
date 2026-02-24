@@ -392,12 +392,14 @@ Footer {
   }
 
   #main-contener-of-teacers {
-    margin-left: 40px !important;
+    padding-left: 40px !important;
   }
 
     #benner-top-contant h1:nth-of-type(1){
-    color: rgb(255, 0, 0)!important;
+    color: rgb(255, 255, 255)!important;
       -webkit-text-stroke: transparent;
+      background-color: #ff00a653;
+      padding: 10px;
  
   }
 
@@ -405,7 +407,7 @@ Footer {
 
 @media (max-width: 320px) {
   #main-contener-of-teacers {
-    margin-left: 2px !important;
+   padding-left: 2px !important;
   }
 
 
@@ -419,7 +421,7 @@ Footer {
   }
 
   #main-contener-of-teacers {
-    margin-left: -10px !important;
+    padding-left: -10px !important;
   }
 }
 

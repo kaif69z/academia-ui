@@ -49,7 +49,20 @@
 .secondary-btn:hover {
   background: #ce2f3f;
   color: white;
+
+
 }
+
+/* 
+@media (max-width:520px) {
+  #applyForm{
+min-width: 520px;
+}
+
+} */
+
+
+
 
 /* Foundation CSS start from here */
 

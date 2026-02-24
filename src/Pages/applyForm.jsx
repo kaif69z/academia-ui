@@ -79,7 +79,7 @@ const ApplyForm = () => {
   };
 
   return (
-    <Container className="my-5">
+    <Container className="my-5" id="applyForm">
       <Row className="justify-content-center">
         <Col md={9} lg={8}>
           <Card className="apply-card shadow-lg border-0">
