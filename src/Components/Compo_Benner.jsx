@@ -14,7 +14,7 @@ export default function Benner() {
       <Carousel id="CrosselAcces">
         <Carousel.Item>
                   <img
-            className="d-block w-100"
+            className="d-block w-100 benner-img"
             src="https://images.unsplash.com/photo-1623632306901-e509641e7191?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2FtYnJpZGdlJTIwdW5pdmVyc2l0eXxlbnwwfHwwfHx8MA%3D%3D"
             alt="Third slide"
           />
@@ -23,14 +23,14 @@ export default function Benner() {
 
         <Carousel.Item>
           <img
-            className="d-block w-100"
+            className="d-block w-100 benner-img"
             src="https://c1.wallpaperflare.com/preview/294/960/948/university-student-graduation-photo-hats.jpg"
             alt="Second slide"
           />
         </Carousel.Item>
 
         <Carousel.Item>
-      <img className="d-block w-100" src={img1} alt="First slide" />
+      <img className="d-block w-100 benner-img" src={img1} alt="First slide" />
         </Carousel.Item>
       </Carousel>
 

@@ -149,7 +149,7 @@ const ApplyForm = () => {
                     className="secondary-btn"
                     onClick={() => navigate("/")}
                   >
-                    Go Back
+                    ⬅️ Back
                   </Button>
 
                   <Button type="submit" className="apply-btn">

@@ -1,7 +1,4 @@
-
-
 /* Form validation, CSS start from here */
-
 
 .apply-card {
   border-radius: 25px;
@@ -54,30 +51,12 @@
   color: white;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Foundation CSS start from here */
-
-
 
 .foundation-hero {
   min-height: 95vh;
-  background: linear-gradient(
-      rgba(0, 0, 0, 0.65),
-      rgba(0, 0, 0, 0.65)
-    ),
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
     url("https://images.unsplash.com/photo-1523050854058-8df90110c9f1")
       center/cover no-repeat;
 }
@@ -118,28 +97,11 @@
   font-weight: 500;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
 /* univesiti overview start here */
-
-
-
-
 
 #university-overview-page {
   background-color: #ffffff;
 }
-
 
 #university-overview-page .carousel-inner img {
   border-radius: 20px;
@@ -149,7 +111,6 @@
 #university-overview-page .carousel-inner img:hover {
   transform: scale(1.02);
 }
-
 
 #university-overview-page .carousel-indicators button {
   padding: 0;
@@ -176,8 +137,6 @@
   box-shadow: 0 0 20px rgba(206, 47, 63, 0.6);
 }
 
-
-
 #university-overview-page h1 {
   letter-spacing: -1px;
 }
@@ -190,7 +149,6 @@
   color: #ce2f3f;
 }
 
-
 #university-overview-page .btn-danger {
   background: linear-gradient(135deg, #ce2f3f, #a51f2d);
   border: none;
@@ -201,8 +159,6 @@
   transform: translateY(-3px);
   box-shadow: 0 12px 25px rgba(206, 47, 63, 0.4);
 }
-
-
 
 #university-overview-page .card {
   border-radius: 20px;
@@ -223,11 +179,7 @@
   transform: scale(1.08);
 }
 
-
-
-
 /* error page start */
-
 
 #serviceUnavailablePage {
   min-height: 100vh;
