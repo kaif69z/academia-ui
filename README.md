@@ -16,7 +16,7 @@ This project was created for practice to improve frontend development skills and
 * 🎓 University landing page
 * 📚 Courses section
 * 👨‍🏫 Faculty / Teachers section
-* 📰 Blog / News section
+* 📰 Online admission
 * 📞 Contact page
 * 📱 Responsive design
 
