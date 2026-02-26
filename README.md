@@ -1,16 +1,79 @@
-# React + Vite
+# 🎓 Academia UI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A university website UI built using React, Vite, and React Bootstrap.
+This project was created for practice to improve frontend development skills and understand responsive design.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌐 Live Demo
 
-## React Compiler
+👉 https://kaif69z.github.io/academia-ui/
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* 🎓 University landing page
+* 📚 Courses section
+* 👨‍🏫 Faculty / Teachers section
+* 📰 Blog / News section
+* 📞 Contact page
+* 📱 Responsive design
+
+---
+
+## 🛠️ Tech Stack
+
+* React
+* Vite
+* React Bootstrap
+
+---
+
+## 📂 Project Structure
+
+src/
+├── assets/
+├── components/
+├── pages/
+
+---
+
+## 📂 Purpose
+
+This project is built for learning and practice purposes.
+It focuses on UI development and component-based architecture in React.
+
+---
+
+
+## 📚 What I Learned
+
+- React components
+- Routing
+- Responsive design
+- Bootstrap integration
+
+---
+
+
+## ▶️ Run Locally
+
+```bash id="b2s9pk"
+npm install
+npm run dev
+```
+
+---
+
+## 📦 Build
+
+```bash id="e3m1qf"
+npm run build
+```
+
+---
+
+## 📌 Author
+
+**Kaif M**
