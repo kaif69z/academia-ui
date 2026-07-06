@@ -81,12 +81,12 @@ export default function Footer() {
             <small>
               Crafted with ❤️ by{" "}
               <a
-                href="https://your-link.com"
+                href="https://github.com/kaiifm"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-warning text-decoration-none fw-semibold"
               >
-                @kaif69z
+                @kaiifm
               </a>
             </small>
           </Col>
