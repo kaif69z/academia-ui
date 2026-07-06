@@ -7,7 +7,7 @@ This project was created for practice to improve frontend development skills and
 
 ## 🌐 Live Demo
 
-👉 https://kaif69z.github.io/academia-ui/
+👉 https://kaiifm.github.io/academia-ui/
 
 ---
 
